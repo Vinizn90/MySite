@@ -1,2 +1,1 @@
-from .Views.views import PostView
-
+from post import Post

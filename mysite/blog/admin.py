@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .modelos import Post
+from mysite.blog.post import Post
 
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'slug', 'status', 'created_on')
