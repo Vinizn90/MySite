@@ -1,0 +1,1 @@
+from mysite.test.models import test_post
