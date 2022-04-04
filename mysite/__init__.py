@@ -1,1 +1,1 @@
-from mysite.test import test_post
+from mysite.test.models import test_post
